@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
     private UIManager uiManager;
     private bool gameOver = false;
 
+    public CharacterController controller;
+    private float alturaOriginal;
+
     void Awake()
     {
         instance = this;
@@ -21,6 +24,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    void Start()
+    {
+        alturaOriginal = controller.height;
+    }
     void Update()
     {
         if (gameOver)
@@ -39,6 +46,15 @@ public class GameManager : MonoBehaviour
             gameOver = true;
             uiManager.MostrarPantallaGameOver();
             Time.timeScale = 0;
+        }
+        
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            controller.height = alturaOriginal / 2f;
+        }
+        else
+        {
+            controller.height = alturaOriginal;
         }
     }
 

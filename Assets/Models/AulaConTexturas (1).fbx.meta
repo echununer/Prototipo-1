@@ -1,41 +1,41 @@
 fileFormatVersion: 2
-guid: ec7bd1c32e92a1d4ca8f1b0274411ff6
+guid: 917bdcf29ce05f04494eec5a2da997ce
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Cube.001
-    100002: MarcoPuerta1
-    100004: MarcoPuerta2
-    100006: MarcoVentanas
-    100008: MarcoVentanaSup
-    100010: Paredes
-    100012: Piso
-    100014: Pizarron
-    100016: Puerta
-    100018: Techo
-    100020: //RootNode
+    100000: //RootNode
+    100002: Cube.001
+    100004: MarcoPuerta1
+    100006: MarcoPuerta2
+    100008: MarcoVentanas
+    100010: MarcoVentanaSup
+    100012: Paredes
+    100014: Piso
+    100016: Pizarron
+    100018: Puerta
+    100020: Techo
     100022: Vidrios
-    400000: Cube.001
-    400002: MarcoPuerta1
-    400004: MarcoPuerta2
-    400006: MarcoVentanas
-    400008: MarcoVentanaSup
-    400010: Paredes
-    400012: Piso
-    400014: Pizarron
-    400016: Puerta
-    400018: Techo
-    400020: //RootNode
+    400000: //RootNode
+    400002: Cube.001
+    400004: MarcoPuerta1
+    400006: MarcoPuerta2
+    400008: MarcoVentanas
+    400010: MarcoVentanaSup
+    400012: Paredes
+    400014: Piso
+    400016: Pizarron
+    400018: Puerta
+    400020: Techo
     400022: Vidrios
-    2100000: Techo.001
-    2100002: Piso
+    2100000: Techo
+    2100002: Material.001
     2100004: Ventanas
-    2100006: MarcoVentanaSup
+    2100006: MarcoVentanasSup
     2100008: MarcoVentanas
     2100010: Pizarron
     2100012: MarcoPuertaVentana
-    2100014: MarcoPuerta1
-    2100016: Paredes
+    2100014: MarcoPuerta
+    2100016: Paredes.001
     2100018: Puerta
     2300000: Cube.001
     2300002: MarcoPuerta1
@@ -71,7 +71,57 @@ ModelImporter:
     4300018: Paredes
     4300020: Puerta
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MarcoPuerta
+    second: {fileID: 2100000, guid: c2a4060715451da428d2bb578b3fe008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MarcoPuertaVentana
+    second: {fileID: 2100000, guid: 3877d13940bf21a41af8e294ceeeea1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MarcoVentanas
+    second: {fileID: 2100000, guid: 7fc1516b68f4e21409d5d4d36fb706c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MarcoVentanasSup
+    second: {fileID: 2100000, guid: 76d776615e201044e8befa2ba75dc010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8706a8ef58e890b40a41ec3f8555a49d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes.001
+    second: {fileID: 2100000, guid: f361b9b3e0a4b3145be50d650df018ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pizarron
+    second: {fileID: 2100000, guid: ed2a4e20e5bf5864d96a2639474a9897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta
+    second: {fileID: 2100000, guid: 5aa287feb7cb41d47a3f3ad933ffbd89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 2db1c42209094f343b03fea9bc00b9c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventanas
+    second: {fileID: 2100000, guid: 9a4b37f63aa01ed46bfd22660b781fa8, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
