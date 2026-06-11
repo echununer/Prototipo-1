@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     public CharacterController controller;
     private float alturaOriginal;
+    [HideInInspector] public bool forzarAgachado = false;
 
     void Awake()
     {
@@ -48,7 +49,9 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0;
         }
         
-        if (Input.GetKey(KeyCode.LeftControl))
+        bool quierePararse = !Input.GetKey(KeyCode.LeftControl);
+
+        if (!quierePararse || forzarAgachado)
         {
             controller.height = alturaOriginal / 2f;
         }
@@ -58,7 +61,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void AddScore()
+public void AddScore()
     {
         if (gameOver) return;
 
