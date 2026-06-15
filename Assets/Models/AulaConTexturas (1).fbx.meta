@@ -15,6 +15,10 @@ ModelImporter:
     100018: Puerta
     100020: Techo
     100022: Vidrios
+    100024: BordePizarron
+    100026: ManijaPuerta
+    100028: ManijaVentanas
+    100030: Marcos
     400000: //RootNode
     400002: Cube.001
     400004: MarcoPuerta1
@@ -27,6 +31,10 @@ ModelImporter:
     400018: Puerta
     400020: Techo
     400022: Vidrios
+    400024: BordePizarron
+    400026: ManijaPuerta
+    400028: ManijaVentanas
+    400030: Marcos
     2100000: Techo
     2100002: Material.001
     2100004: Ventanas
@@ -37,6 +45,16 @@ ModelImporter:
     2100014: MarcoPuerta
     2100016: Paredes.001
     2100018: Puerta
+    2100020: Vidrios
+    2100022: ManijasVentanas
+    2100024: Marcos
+    2100026: Pizarron.001
+    2100028: MarcoPizarron
+    2100030: Puerta.001
+    2100032: Techo.001
+    2100034: Piso.001
+    2100036: Paredes
+    2100038: Manija
     2300000: Cube.001
     2300002: MarcoPuerta1
     2300004: MarcoPuerta2
@@ -48,6 +66,10 @@ ModelImporter:
     2300016: Puerta
     2300018: Techo
     2300020: Vidrios
+    2300022: BordePizarron
+    2300024: ManijaPuerta
+    2300026: ManijaVentanas
+    2300028: Marcos
     3300000: Cube.001
     3300002: MarcoPuerta1
     3300004: MarcoPuerta2
@@ -59,6 +81,10 @@ ModelImporter:
     3300016: Puerta
     3300018: Techo
     3300020: Vidrios
+    3300022: BordePizarron
+    3300024: ManijaPuerta
+    3300026: ManijaVentanas
+    3300028: Marcos
     4300000: Cube.001
     4300002: Techo
     4300004: Piso
@@ -70,6 +96,10 @@ ModelImporter:
     4300016: MarcoPuerta2
     4300018: Paredes
     4300020: Puerta
+    4300022: ManijaVentanas
+    4300024: Marcos
+    4300026: BordePizarron
+    4300028: ManijaPuerta
     2186277476908879412: ImportLogs
   externalObjects:
   - first:

@@ -3993,8 +3993,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  maxScore: 1
-  timeRemaining: 3
+  maxScore: 7
+  timeRemaining: 30
   controller: {fileID: 712225139}
   forzarAgachado: 0
 --- !u!4 &751140748
@@ -9760,17 +9760,17 @@ PrefabInstance:
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.960517
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.4678183
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.167062
+      value: 7.33
       objectReference: {fileID: 0}
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
@@ -11040,17 +11040,17 @@ PrefabInstance:
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.960517
+      value: -0.010000229
       objectReference: {fileID: 0}
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.4678183
+      value: 2.6999998
       objectReference: {fileID: 0}
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.307062
+      value: 14.47
       objectReference: {fileID: 0}
     - target: {fileID: 2756837277205281257, guid: f8b5cbcf67ce6cc4b81e1b8ad72832dd,
         type: 3}
