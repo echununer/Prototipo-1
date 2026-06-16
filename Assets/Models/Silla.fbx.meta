@@ -1,15 +1,17 @@
 fileFormatVersion: 2
-guid: 8ba4242aa55aafb49baf2ed5bfa27795
+guid: d5343956d29f1e04f86366b48d5a67d4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: blanco
-    2100002: gris
+    2100000: SillaAzul.001
+    2100002: MaderaSillas
+    2100004: "Ca\xF1osSillas"
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube.001
+    4300000: SillaAzul
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1

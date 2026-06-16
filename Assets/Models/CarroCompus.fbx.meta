@@ -1,24 +1,17 @@
 fileFormatVersion: 2
-guid: a2198e4bfc4053b4cb84c718ac8dab1a
+guid: a02ffed407f8eda47a3eb1f4df998661
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Cube.001
-    100002: MaderaSillas
-    100004: //RootNode
-    400000: Cube.001
-    400002: MaderaSillas
-    400004: //RootNode
-    2100000: MaderaSillas
-    2100002: SillaAzul
-    2100004: MacoSillas
-    2300000: Cube.001
-    2300002: MaderaSillas
-    3300000: Cube.001
-    3300002: MaderaSillas
-    4300000: Cube.001
-    4300002: MaderaSillas
-    2186277476908879412: ImportLogs
+    100000: //RootNode
+    400000: //RootNode
+    2100000: RuedasCarro
+    2100002: CandadoCarro
+    2100004: MarcoRuedasCarro
+    2100006: Material.001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Carro
   externalObjects: {}
   materials:
     importMaterials: 1
