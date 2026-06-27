@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: ae478eac572a9e54dae9d6e0ec50662a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bitcount Single Roman
+  fontNames:
+  - Bitcount Single Roman
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9c76f611d0679864c988f241839362c1, type: 3}
+  - {fileID: 12800000, guid: 7b12b5046ec0a724586b35d3490ec346, type: 3}
+  - {fileID: 12800000, guid: 0e8abef4b4d03a5499d2ba03a6dc2531, type: 3}
+  - {fileID: 12800000, guid: 0cf2671adc5473041a247e7d749def6e, type: 3}
+  - {fileID: 12800000, guid: 11ec942efbcf8c948a50f5340a7f7d49, type: 3}
+  - {fileID: 12800000, guid: 9237e87e902711c44a861eb47f49d252, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
